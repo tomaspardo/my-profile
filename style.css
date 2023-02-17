@@ -1,0 +1,79 @@
+body{	
+	font-family:SF Pro Display ;
+	text-align: center;
+	background-color: #F1F1F1;
+	transition: color 0.3s ease;
+	color: #21209C;
+}
+
+
+h1 {
+	color: #21209C;
+	font-size: 24px;
+	text-align: center;
+	background-color: ;
+}
+
+.link{
+	background-color:  #21209C ;
+	color: #F1F1F1 ;
+	border-radius: 5px;
+	text-decoration: none;
+	padding: 10px;
+	margin: 20px;
+}
+
+#paragraphe1{
+
+	margin: -250px 0px 0px 0px;
+
+}
+
+.photo{
+	height: 250px;
+	width: 200px;
+	border-radius: 75%;
+}
+
+
+
+#container{
+	padding: 60px;
+	margin: 50px;
+	background-color: #FDB827;
+	box-shadow: 5px 5px 10px rgba(0,0,0,0.3);
+	border-radius: 10px;
+}
+
+#hockey{
+	padding: 60px;
+	margin: 100px 100px 100px 900px; /* top: 80px, right: 0px, bottom: 40px, left: 16px*/	
+	background-color: #FDB827;
+	box-shadow: 5px 5px 10px rgba(0,0,0,0.3);
+	border-radius: 10px;
+
+}
+
+.list-inline{
+	display: inline;
+	padding: 50px
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
